@@ -1,0 +1,94 @@
+body, ul, li, p{
+  font-family: sans-serif;
+  margin: 0px;
+  padding: 0px;
+  list-style: none;
+}
+
+body{
+  background-color: rgb(146, 145, 145);
+}
+
+input{
+  border-radius: 5px;
+  border: none;
+  padding: 6px 16px;
+  outline: none;
+  width: 74%;
+}
+
+.err_msg{
+  color: white;
+  background-color: rgb(219, 61, 61);
+  width: 400px;
+  padding: 8px;
+  margin: 8px;
+  text-align: center;
+}
+
+button{
+  border-radius: 5px;
+  border: none;
+  padding: 2px 20px;
+  margin: 0px 0px 0px 5px;
+  font-weight: bold;
+}
+
+button:hover{
+  color: #fff;
+  cursor: pointer;
+  background-color: rgb(65, 147, 139);
+}
+
+.del_button:hover{
+  background-color: rgb(219, 61, 61);
+}
+
+p{
+  margin-right: 8px;
+}
+
+.list_row p{
+  width: 57%;
+}
+
+.input_area{
+  background-color: white;
+  width: 400px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.running_area{
+  background-color: white;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.complete_area{
+  background-color: #ffffe6;
+  background-color: white;
+  width: 400px;
+  min-height: 200px;
+  padding: 8px;
+  margin: 8px;
+  border-radius: 8px;
+}
+
+.title{
+  text-align: center;
+  margin: 0;
+  padding-bottom: 16px;
+  font-weight: bold;
+  color: #666;
+}
+
+.list_row{
+  display: flex;
+  align-items: center;
+  padding: 0px 0px 5px 20px;
+} 

@@ -1,0 +1,4 @@
+.DS_Store
+web3Todo.code-workspace
+client/node_modules
+client/db
